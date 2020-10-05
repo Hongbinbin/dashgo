@@ -1,0 +1,3 @@
+<launch>
+   <node pkg="web_monitor2" name="sendGoalPoseFromJS_Server" type="sendGoalPose_Server" output="screen" />
+</launch>

@@ -1,0 +1,9 @@
+<launch>
+    <include file = "$(find dashgo_nav)/launch/navigation_imu_hobin.launch">
+    </include>
+    <include file = "$(find rosbridge_server)/launch/chun_rosbridge_websocket.launch">
+    </include>
+    <include file = "$(find web_monitor2)/launch/sendGoalServer.launch">
+    </include>
+</launch>
+

@@ -1,0 +1,2 @@
+set(neo_msgs_MESSAGE_FILES "msg/EndPose.msg;msg/JointAngles.msg;msg/JointVelocity.msg;msg/JointCurrent.msg")
+set(neo_msgs_SERVICE_FILES "srv/Calibrate.srv;srv/Forward.srv;srv/GetInput.srv;srv/GetMotorIds.srv;srv/Hold.srv;srv/Inverse.srv;srv/MoveToAngles.srv;srv/MoveToPose.srv;srv/Recover.srv;srv/Release.srv;srv/Reset.srv;srv/SetEOATAction.srv;srv/SetOutput.srv;srv/Stop.srv;srv/MoveJ.srv;srv/MoveL.srv;srv/MoveP.srv")

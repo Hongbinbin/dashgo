@@ -1,0 +1,8 @@
+prefix=/home/eaibot/dashgo_ws/install
+
+Name: subscribers
+Description: Description of subscribers
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/eaibot/dashgo_ws/install/lib 
+Requires: 

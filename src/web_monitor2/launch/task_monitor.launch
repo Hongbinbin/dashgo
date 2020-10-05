@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="web_monitor" name="webserver" type="webserver.py" args="8000" />
+  <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch">
+     <arg name="port" value="9090"/>
+  </include>
+  <!-- include launch file of eai n1_001 eai n1_002 -->
+  <!-- <include file="$(find pimouse_ros)/launch/pimouse.launch" /> -->
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/eaibot/dashgo_ws/devel
+
+Name: dashgo_sendcoordinate
+Description: Description of dashgo_sendcoordinate
+Version: 2.3.2
+Cflags: 
+Libs: -L/home/eaibot/dashgo_ws/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/eaibot/dashgo_ws/devel
+
+Name: web_monitor2
+Description: Description of web_monitor2
+Version: 0.0.0
+Cflags: -I/home/eaibot/dashgo_ws/devel/include
+Libs: -L/home/eaibot/dashgo_ws/devel/lib 
+Requires: roscpp rospy std_msgs message_runtime
